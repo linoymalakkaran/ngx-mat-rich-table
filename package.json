@@ -1,5 +1,5 @@
 {
-  "name": "ng-super",
+  "name": "ngx-table-rich",
   "version": "1.0.6",
   "description": "It is an anglar custom schematics, allow you to scaffold main files for any module in less time and efforts",
   "scripts": {
@@ -13,7 +13,7 @@
     "Angular",
     "Scaffolding"
   ],
-  "author": "Omar Aljaber",
+  "author": "Linoy Pappachan Malakkaran",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -26,14 +26,14 @@
     "@types/jasmine": "~3.5.0",
     "jasmine": "^3.5.0"
   },
-  "main": "src/ng-super/index.js",
-  "bin": "src/ng-super/index.js",
+  "main": "src/ngx-table-rich/index.js",
+  "bin": "src/ngx-table-rich/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OmarKhanfer/ng-super"
+    "url": "git+ https://github.com/linoymalakkaran/ngx-mat-rich-table.git"
   },
   "bugs": {
-    "url": "https://github.com/OmarKhanfer/ng-super/issues"
+    "url": "https://github.com/linoymalakkaran/ngx-mat-rich-table/issues"
   },
-  "homepage": "https://github.com/OmarKhanfer/ng-super#readme"
+  "homepage": "https://github.com/linoymalakkaran/ngx-mat-rich-table#readme"
 }

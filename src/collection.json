@@ -1,11 +1,11 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "ng-super": {
-      "description": "Ng Super for scaffolding code in less time",
-      "factory": "./ng-super/index#ngSuper",
-      "schema": "./ng-super/schema.json",
-      "aliases": ["sp"]
+    "ngx-table-rich": {
+      "description": "ngx-table-rich for scaffolding code in less time",
+      "factory": "./ngx-table-rich/index#ngxTableRich",
+      "schema": "./ngx-table-rich/schema.json",
+      "aliases": ["ngxTableRich"]
     }
   }
 }

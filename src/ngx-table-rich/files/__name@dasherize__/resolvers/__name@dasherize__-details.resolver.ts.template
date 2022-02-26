@@ -11,7 +11,7 @@ import { <%=classify(name)%>DetailsSuccess } from '../store/<%=name%>.actions';
   providedIn: 'root'
 })
 
-export class <%=classify(name)%>DetailsResolver implements Resolve<any>{
+export class <%=classify(name)%>ListResolver implements Resolve<any>{
 
   constructor(private service:  <%=classify(name)%>Service, private store: Store<<%=classify(name)%>State>) {
 
@@ -20,9 +20,9 @@ export class <%=classify(name)%>DetailsResolver implements Resolve<any>{
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any> {
     const id = route.paramMap.get('id');
 
-    return this.service.get<%=classify(name)%>Details(id).pipe(
+    return this.service.get<%=classify(name)%>List(id).pipe(
       map((response: any) => {
-        this.store.dispatch(new <%=classify(name)%>DetailsSuccess(response));
+        this.store.dispatch(new <%=classify(name)%>ListSuccess(response));
         return response;
       })
     );
